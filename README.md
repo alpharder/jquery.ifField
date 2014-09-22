@@ -3,7 +3,6 @@ jquery.ifField
 
 Usage
 ----------
-
 ```html
 <form>
     <input name="city" value="Moscow" type="text">
@@ -24,3 +23,23 @@ Usage
     });
 </script>
 ```
+
+```
+.ifField(comparisonCallback, immediateCheck);
+```
+`comparisonCallback` is called every time that field value changes and right now if `immediateCheck` is `true`, however it defaults to `false`.
+
+```
+.then(callback);
+```
+`callback` is called when `comparisonCallback` returned `true`.
+
+```
+.otherwise(callback);
+```
+`callback` is called when `comparisonCallback` returned `false`.
+
+
+Requirements
+------------
+Modern browsers, IE >= 9.
