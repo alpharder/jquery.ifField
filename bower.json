@@ -7,6 +7,9 @@
     "Alexander Bolshakov <a.bolshakov.coder@gmail.com>"
   ],
   "description": "Simple conditional form fields solution for jQuery.",
+  "dependencies": {
+    "jquery": ">=1.8"
+  },
   "moduleType": [
     "globals"
   ],
