@@ -1,0 +1,25 @@
+{
+  "name": "jquery-iffield",
+  "main": "jquery.ifField.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/alpharder/jquery.ifField",
+  "authors": [
+    "Alexander Bolshakov <a.bolshakov.coder@gmail.com>"
+  ],
+  "description": "Simple conditional form fields solution for jQuery.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "conditional",
+    "fields"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
